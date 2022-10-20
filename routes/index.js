@@ -28,7 +28,7 @@ router.get('/', async function (req, res, next) {
         imagen: '/images/noimage.png'
       }
     }
-  })
+  });
 
   res.render('index', {
     novedades
