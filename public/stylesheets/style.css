@@ -23,7 +23,7 @@ body {
 #grad1 {
 
   margin: 0 auto;
-  background-image: linear-gradient(to bottom right, rgb(246, 188, 229), white);
+  background-image: linear-gradient(to bottom right, rgba(254,251,234), white);
 }
 
 h1 {
