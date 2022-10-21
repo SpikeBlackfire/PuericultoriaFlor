@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@357&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
 html {
@@ -24,7 +27,7 @@ body {
 }
 
 h1 {
-  font-family: Architects Daughter;
+  font-family: Rosario ,Arial,sans-serif;
 }
 
 h2 {
@@ -43,8 +46,8 @@ h2 {
 }
 
 .card-title {
-  font-family: 'Oooh Baby', cursive;
-  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
 }
 
 .card-img-top {

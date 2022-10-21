@@ -38,7 +38,6 @@ router.get('/', async function (req, res, next) {
 router.post('/', async (req, res, next) => {
 
   //console.log(req.body) Validador de 200
-  //var nombre= req.body,nombre; NO SE USA
   var email = req.body.email;
 
   var mensaje = req.body.mensaje;

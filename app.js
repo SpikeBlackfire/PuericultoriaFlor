@@ -8,7 +8,7 @@ var logger = require('morgan');
 require('dotenv').config();
 
 
-//sessiones
+//sessiones + file upload
 var session = require('express-session');
 var fileUpload = require('express-fileupload');
 
