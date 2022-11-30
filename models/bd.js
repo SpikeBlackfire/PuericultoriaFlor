@@ -2,11 +2,17 @@ var mysql = require('mysql');
 var util = require('util');
 
 var pool = mysql.createPool({
-    connectionLimit: 10,
-    host: process.env.MYSQL_HOST,
+/*     connectionLimit: 10,
+    host: process.env.MYSQL_HOST, 
     user: process.env.MYSQL_USER,
     password: process.env.MYSQL_PASS,
-    database: process.env.MYSQL_DB_NAME
+    database: process.env.MYSQL_DB_NAME */
+
+    host: dpg-ce3pqo1a6gdru5ktfqjg-a,
+    port: 5432,
+    user: pueridb1_user,
+    password: pueridb1_user,
+    database: pueridb1,
 })
 
 
